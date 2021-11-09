@@ -1,0 +1,94 @@
+
+
+:root {
+    --box-shadow: 0px 5px 10px rgba(57, 56, 61, 0.205);
+    --priamry-color: #0000ff;
+    --secondary-color: #2f322d;
+    --font-color: #6a7066;
+    --font-roboto: "Roboto", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+  }
+  
+  
+  header .nav-bar {
+    box-shadow: 0px 0px 2px 0px var(--secondary-color);
+  }
+  header .nav-bar ul li + li {
+    margin: 0 0.8rem;
+  }
+  
+  header .nav-bar ul li .search-nav {
+    margin-right: 14rem;
+    align-self: start;
+  }
+  
+  header .nav-bar ul li form input {
+    border-radius: 40px 0px 0px 40px;
+    margin-right: 0;
+    width: 20rem;
+    padding: 0 1rem;
+    height: 2rem;
+  }
+  
+  header .nav-bar ul li form input:focus {
+    background-color: var(--font-color);
+    color: white;
+  }
+  
+  header .nav-bar ul li form input {
+    padding: 0rem 1rem;
+  }
+  header .nav-bar ul li form button {
+    background-color: var(--priamry-color);
+    color: white;
+    height: 2rem;
+    margin-left: 0;
+    border-radius: 0px 80px 80px 0px;
+    border-color: var(--priamry-color);
+  }
+  
+  header .nav-bar ul .item-2 {
+    color: var(--priamry-color);
+    font-size: 15px;
+    display: block;
+  }
+  
+
+  
+  header .category-nav a {
+    color: var(--font-color);
+  }
+  
+  header .category-nav a:hover {
+    background-color: var(--priamry-color);
+    color: white;
+  }
+  
+  
+  
+  
+
+  
+  .price {
+      font-size: 1.75rem;
+  }
+  
+  
+  @media (max-width: 500px) { 
+      .card-container {
+          margin-bottom: 2rem;
+      }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
